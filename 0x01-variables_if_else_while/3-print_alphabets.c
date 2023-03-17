@@ -17,9 +17,10 @@ int main(void)
 	}
 	for (i = 0; i < 26; i++)
 	{
-		putchat(ch2);
+		putchar(ch2);
 		ch2++;
 	}
-	
+	putchar('\n');
+
 	return (0);
 }
