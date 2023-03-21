@@ -14,7 +14,7 @@ void times_table(void)
 		for (j = 0; j < 10; j++)
 		{
 			char c = (i * j) % 10 + '0';
-			char c2 = (i * j) / 10 % 10 + '0';
+			char c2 = ((i * j) / 10) % 10 + '0';
 			if (j == 0)
 			{
 				_putchar(0);
