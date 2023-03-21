@@ -10,7 +10,7 @@ void jack_bauer(void)
 	int min2 = 0;
 	int h1 = 0;
 	int h2 = 0;
-	
+
 	while (!(h1 == 2 && h2 == 4 && min1 == 0 && min2 == 0))
 	{
 		_putchar(h1 + '0');
