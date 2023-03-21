@@ -9,9 +9,9 @@ void times_table(void)
 	int i;
 	int j;
 
-	for (i = 0; i < 9; i++)
+	for (i = 0; i < 10; i++)
 	{
-		for (j = 0; j < 9; j++)
+		for (j = 0; j < 10; j++)
 		{
 			char c = (i * j) % 10 + '0';
 			char c2 = (i * j) / 10 % 10 + '0';
