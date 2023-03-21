@@ -13,4 +13,9 @@ int _putchar(char c);
   * Return: void
   */
 void print_alphabet(void);
+/**
+  * print_alphabet_x10 - prints the alphabet characters 10 times in 10 lines followed by newline
+  *
+  * Return: void
+  */
 #endif
