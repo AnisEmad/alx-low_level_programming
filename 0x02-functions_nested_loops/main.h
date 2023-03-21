@@ -2,7 +2,7 @@
 #define MAIN_H
 
 #include <unistd.h>
-
+#include <_putchar.c>
 /**
   * print_putchar - prints the word _putchar
   *
