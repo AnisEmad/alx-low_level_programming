@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+  * print_alphabet - prints the alphabet letters followed by a new line
+  *
+  * return: void
+  */
 void print_alphabet(void)
 {
 	char c = 'a';
@@ -11,6 +15,5 @@ void print_alphabet(void)
 		c++;
 	}
 	_putchar('\n');
-	return;
 }
 
