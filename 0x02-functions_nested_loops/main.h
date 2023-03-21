@@ -31,5 +31,6 @@ int print_putchar(void)
 		_putchar(word[i]);
 	}
 	_putchar('\n');
+	return (0);
 }
 #endif
