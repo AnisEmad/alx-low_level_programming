@@ -7,5 +7,10 @@
   * Return: ON sucess 1.
   */
 int _putchar(char c);
-
+/**
+  * print_alphabet - prints the the alphabet followed by newline
+  *
+  * Return: void
+  */
+void print_alphabet(void);
 #endif
