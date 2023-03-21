@@ -1,24 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
-
-#include <unistd.h>
-#include "_putchar.c"
 /**
-  * print_putchar - prints the word _putchar
+  * _putchar - prints the character given
+  * @c : the character printed
   *
-  * Return: On success 0.
-  * On error, 1 is returned.
+  * Return: ON sucess 1.
   */
-int print_putchar(void)
-{
-	char word[] = "_putchar";
-	int i;
+int _putchar(char c);
 
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(word[i]);
-	}
-	_putchar('\n');
-	return (0);
-}
 #endif
