@@ -23,7 +23,7 @@ int palindrome_check(int i, int j, char *s)
 	{
 		if (s[i] == s[j])
 		{
-			return (palindrome_check(i + 1, j - 1, s))'
+			return (palindrome_check(i + 1, j - 1, s));
 		}
 		else if (s[i] != s[j])
 		{
@@ -43,5 +43,5 @@ int palindrome_check(int i, int j, char *s)
   */
 int is_palindrome(char *s)
 {
-	return (palindrome_check(0, getlen(s) - 1, s));
+	return (palindrome_check(0, get_len(s) - 1, s));
 }
