@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stdlib.h>
 /**
   * free_dog - frees the dog variable 
   * @d: the dog used
@@ -7,7 +8,6 @@
 void free_dog(dog_t *d)
 {
 	free(d->name);
-	free(d->age);
 	free(d->owner);
 	free(d);
 }
