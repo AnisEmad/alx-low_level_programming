@@ -12,7 +12,7 @@ int get_len(char *s)
 }
 /**
   * palindrome_check - checks if the string is palindrome or not
-  * @i: start of the string 
+  * @i: start of the string
   * @j: end of the string
   * @s: the string
   * Return: 1 if palindrom 0 if not
