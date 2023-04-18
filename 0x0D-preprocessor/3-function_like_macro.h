@@ -1,6 +1,6 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
-#define ABS(X) x < 0 ? (x * -1) : x;
+#define ABS(X) ((x) < 0 ? ((x) * -1) : (x))
 
 #endif
