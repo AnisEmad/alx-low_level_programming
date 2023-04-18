@@ -8,7 +8,7 @@
   * @owner: name of the owner of the dog
   * Return: return a variable of type dog
   */
-dog_t *new_dog(char *name, float age, cahr *owner)
+dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *doggy;
 	int i;
