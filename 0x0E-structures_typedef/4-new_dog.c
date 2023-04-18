@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
   * new_dog - creates a new dog
-  * @name: name of the dog 
+  * @name: name of the dog
   * @age: age of the dog
   * @owner: name of the owner of the dog
   * Return: return a variable of type dog
