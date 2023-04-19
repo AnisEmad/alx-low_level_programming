@@ -3,7 +3,7 @@
   * int_index - search function
   * @array: the array used to search in
   * @size: the size of the array
-  * @cmp: the logic function 
+  * @cmp: the logic function
   * Return: the index of the element if found
   * if no element return -1
   */
