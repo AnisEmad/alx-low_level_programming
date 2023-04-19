@@ -1,4 +1,4 @@
-#inclue "function_pointers.h"
+#include "function_pointers.h"
 /**
   * print_name - prints a name
   * @name: the name printed
@@ -8,5 +8,5 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	f(name)i;
+	f(name);
 }
