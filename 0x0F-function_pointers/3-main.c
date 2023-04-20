@@ -8,7 +8,7 @@
 int main(int ac, char *av[])
 {
 	int num1, num2;
-	int (*func)(int, int);
+	int (*fun)(int, int);
 	char *c = av[2];
 
 	if (ac != 4)
