@@ -8,9 +8,9 @@
 
 int prime_help(int n, int m)
 {
-	if (m == 1 && n != 1)
+	if (m == 1)
 		return (1);
-	if (n % m == 0 || m == 1)
+	if (n % m == 0 || m == 0)
 		return (0);
 	return (prime_help(n, m - 1));
 }
