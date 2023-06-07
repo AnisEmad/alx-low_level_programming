@@ -8,7 +8,7 @@ char *get_string(char *s)
 {
 	if (*s == '\0')
 		return (--s);
-	get_string(s + 1);
+	return (get_string(s + 1));
 }
 /**
   * palindrome - helper function
