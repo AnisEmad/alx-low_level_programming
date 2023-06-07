@@ -12,6 +12,8 @@ int _sqrt_helper(int n, int m);
 int is_prime_number(int n);
 int prime_help(int n, int m);
 int is_palindrome(char *s);
+char* get_string(char *s);
+int plaindrome(char *s1, char *s2);
 int wildcmp(char *s1, char *s2);
 
 
