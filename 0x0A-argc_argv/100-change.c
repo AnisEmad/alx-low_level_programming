@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
 	int n;
 	int sum = 0;
 	int num;
+
 	if (argc != 2)
 	{
 		printf("Error\n");
