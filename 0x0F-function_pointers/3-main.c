@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 4 && argv[2] + 1 == '\0')
 	{
-		printf("Error = argc\n");
+		printf("Error\n");
 		exit(98);
 	}
 	n1 = atoi(argv[1]);
@@ -23,12 +23,12 @@ int main(int argc, char *argv[])
 	p = get_op_func(argv[2]);
 	if (p == NULL)
 	{
-		printf("Error = null\n");
+		printf("Error\n");
 		exit(99);
 	}
 	if (n2 == 0 && (p == op_div || p == op_mod))
 	{
-		printf("Error == div\n");
+		printf("Error\n");
 		exit(100);
 	}
 	printf("%d\n", p(n1, n2));
