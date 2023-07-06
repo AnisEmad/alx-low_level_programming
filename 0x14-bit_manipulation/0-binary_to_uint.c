@@ -26,8 +26,9 @@ unsigned int binary_to_uint(const char *b)
 
 	while (i > 0)
 	{
-		num += *b - '0' * pow;
+		num += (*b - 48) * pow;
 		pow *= 2;
+		b--;
 		i--;
 	}
 	return (num);
