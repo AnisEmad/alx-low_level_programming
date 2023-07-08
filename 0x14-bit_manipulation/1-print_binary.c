@@ -8,7 +8,7 @@ void print_binary(unsigned long int n)
 {
 	unsigned long int i;
 	int flag = 0;
-	
+
 	if (n == 0)
 	{
 		_putchar('0');
@@ -20,7 +20,7 @@ void print_binary(unsigned long int n)
 		{
 			flag = 1;
 			_putchar('1');
-		}else if (flag)
+		} else if (flag)
 		{
 			(n & i) ? _putchar('1') : _putchar('0');
 		}
