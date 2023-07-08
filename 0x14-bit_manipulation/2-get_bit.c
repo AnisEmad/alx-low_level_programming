@@ -7,8 +7,8 @@
   */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	int x = (63 - index) - 1;
-	unsigned long int mask = 1UL << (sizeof(unsigned long int) * 8 - x);
+	unsigned long int x = (sizeof(unsigned long int) * 8 - 1 - (63 - index));
+	unsigned long int mask = 1UL << x;
 
 	if (index > 63)
 		return (-1);
