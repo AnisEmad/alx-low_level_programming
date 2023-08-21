@@ -11,7 +11,7 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	return (0);
+	return (NULL);
 }
 
 /*
@@ -27,7 +27,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 char *_strchr(char *s, char c)
 {
-	return (0);
+	return (NULL);
 }
 
 /*
@@ -53,7 +53,7 @@ unsigned int _strspn(char *s, char *accept)
 
 char *_strpbrk(char *s, char *accept)
 {
-	return (0);
+	return (NULL);
 }
 /*
  * _strstr - function
@@ -65,5 +65,5 @@ char *_strpbrk(char *s, char *accept)
 
 char *_strstr(char *haystack, char *needle)
 {
-	return (0);
+	return (NULL);
 }

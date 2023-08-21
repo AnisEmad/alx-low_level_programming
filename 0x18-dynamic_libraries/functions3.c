@@ -32,7 +32,7 @@ int _isdigit(int c)
  */
 char *strcpy(char *dest, char *src)
 {
-	return (0);
+	return (NULL);
 }
 /*
  * _atoi - converts into integer
@@ -56,5 +56,5 @@ int _atoi(char *s)
 
 char *_memset(char *dest, char b, unsigned int n)
 {
-	return (0);
+	return (NULL);
 }
