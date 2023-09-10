@@ -34,7 +34,11 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	new->value = dup;
 	new->next = NULL;
 	if (ht->array[index] == NULL)
+	{
 		ht->array[index] = new;
+		ht->cnt++;
+	}
+		
 	else
 	{
 		if (strcmp(ht->array[index]->key, key) == 0)
@@ -46,6 +50,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		}
 		new->next = ht->array[index];
 		ht->array[index] = new;
+		ht->cnt++;
 	}
 
 	return (1);
